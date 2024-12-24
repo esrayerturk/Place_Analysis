@@ -2,176 +2,121 @@
 Bu proje, kullanıcılara mekan önerilerinde bulunmak için K-Nearest Neighbors (KNN) algoritmasını kullanan bir Streamlit uygulamasıdır. Kullanıcılar fiyat, konum, etkinlik türü gibi kriterler doğrultusunda öneriler alabilir ve KNN algoritması sayesinde puanladıkları mekanlara benzer mekanlar önerilir.
 Mekan Öneri Uygulaması
 
-Bu proje, kullanıcılara mekan önerilerinde bulunmak için K-Nearest Neighbors (KNN) algoritmasını kullanan bir Streamlit uygulamasıdır. Kullanıcılar fiyat, konum, etkinlik türü gibi kriterler doğrultusunda öneriler alabilir ve KNN algoritması sayesinde puanladıkları mekanlara benzer mekanlar önerilir.
+# Mekan Öneri Uygulaması
 
-Proje Özellikleri
+Bu proje, kullanıcılara mekan önerilerinde bulunmak için **K-Nearest Neighbors (KNN)** algoritmasını kullanan bir Streamlit uygulamasıdır. Kullanıcılar fiyat, konum, etkinlik türü gibi kriterler doğrultusunda öneriler alabilir ve KNN algoritması sayesinde puanladıkları mekanlara benzer mekanlar önerilir.
 
-1. Mekan Öneri
+---
 
-Kullanıcılar etkinlik türü, lokasyon ve fiyat aralığı seçerek mekan önerileri alabilir.
+## Proje Özellikleri
 
-Mekanlar, kullanıcı puanlarına göre sıralanır.
+### 1. **Mekan Öneri**
+- Kullanıcılar etkinlik türü, lokasyon ve fiyat aralığı seçerek mekan önerileri alabilir.
+- Mekanlar, kullanıcı puanlarına göre sıralanır.
 
-2. Mekan Ekleme
+### 2. **Mekan Ekleme**
+- Kullanıcılar yeni mekanlar ekleyebilir.
+- Eklenen mekanlar mevcut veri setine dahil edilir ve önerilerde kullanılabilir.
 
-Kullanıcılar yeni mekanlar ekleyebilir.
+### 3. **Puanlama Analizi**
+- Kullanıcılar mekanlara puan verebilir.
+- Mekanların ortalama puanları görüntülenebilir.
 
-Eklenen mekanlar mevcut veri setine dahil edilir ve önerilerde kullanılabilir.
+### 4. **Mekan Seçenekleri (KNN Önerisi)**
+- Kullanıcının yüksek puanladığı mekanlara benzer mekanlar önerilir.
+- Öneriler "Cuisine Type", "Price Range", ve "Location" bilgileriyle birlikte gösterilir.
 
-3. Puanlama Analizi
+---
 
-Kullanıcılar mekanlara puan verebilir.
+## Kurulum
 
-Mekanların ortalama puanları görüntülenebilir.
+### Gereksinimler
+- Python 3.8 veya üzeri
+- Gereken Python kütüphaneleri:
+  - `streamlit`
+  - `pandas`
+  - `scikit-learn`
+  - `numpy`
 
-4. Mekan Seçenekleri (KNN Önerisi)
+### Adımlar
 
-Kullanıcının yüksek puanladığı mekanlara benzer mekanlar önerilir.
+1. **Bu repoyu klonlayın:**
+   ```bash
+   git clone https://github.com/kullaniciadi/mekan-oneri.git
+   cd mekan-oneri
+   ```
 
-Öneriler "Cuisine Type", "Price Range", ve "Location" bilgileriyle birlikte gösterilir.
+2. **Gerekli kütüphaneleri yükleyin:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Kurulum
+3. **Uygulamayı çalıştırın:**
+   ```bash
+   streamlit run app.py
+   ```
 
-Gereksinimler
+4. **Uygulamayı kullanın:**
+   Tarayıcınızda `http://localhost:8501` adresine giderek uygulamayı görüntüleyebilirsiniz.
 
-Python 3.8 veya üzeri
+---
 
-Gereken Python kütüphaneleri:
+## Kullanım
 
-streamlit
+### Mekan Öneri
+- Etkinlik türünü, konumu ve fiyat aralığını seçin.
+- Uygulama, kriterlerinize uygun mekanları listeler.
+- En yüksek puanlı mekanlar ayrıca vurgulanır.
 
-pandas
+### Mekan Ekleme
+- Yeni bir mekan eklemek için gerekli bilgileri doldurun (isim, mutfak türü, fiyat aralığı, vb.).
+- Eklediğiniz mekanlar öneri sistemine dahil edilir.
 
-scikit-learn
+### Puanlama Analizi
+- Mekanlara puan vererek öneri algoritmasını zenginleştirin.
+- Tüm mekanların ortalama puanlarını görüntüleyin.
 
-numpy
+### Mekan Seçenekleri (KNN Önerisi)
+- Kullanıcı ID'nizi girerek size önerilen mekanları görüntüleyin.
+- Öneriler, "Cuisine Type", "Price Range", ve "Location" bilgilerini içerir.
 
-Adımlar
+---
 
-Bu repoyu klonlayın:
+## Veri Seti
+Proje, bir CSV dosyası (`PlacesAnalysis.csv`) kullanır. Bu dosya şu başlıkları içerir:
+- **Place Name:** Mekan adı
+- **Cuisine Type:** Mutfak türü
+- **Price Range:** Fiyat aralığı
+- **Price Range Unit:** Sayısal fiyat bilgisi
+- **Event Type:** Etkinlik türü
+- **Location:** Mekanın bulunduğu yer
+- **User Rating (1-5):** Kullanıcı puanı
 
-git clone https://github.com/kullaniciadi/mekan-oneri.git
-cd mekan-oneri
+### Örnek Veri:
+| Place Name      | Cuisine Type | Price Range | Price Range Unit | Event Type   | Location  | User Rating (1-5) |
+|-----------------|--------------|-------------|-------------------|--------------|-----------|-------------------|
+| Cafe Aroma      | Coffee       | $$          | 2                 | Casual       | Downtown  | 4.2               |
+| Bistro Delight  | Italian      | $$$         | 3                 | Formal       | Midtown   | 4.8               |
 
-Gerekli kütüphaneleri yükleyin:
+---
 
-pip install -r requirements.txt
+## Teknik Detaylar
 
-Uygulamayı çalıştırın:
+### KNN Algoritması
+- Kullanıcının yüksek puanladığı mekanlara benzer mekanlar önerilir.
+- **Euclidean Distance** metriği kullanılarak benzerlik hesaplanır.
+- Kategorik özellikler (`Cuisine Type`, `Location`) **one-hot encoding** ile sayısallaştırılır.
+- Eksik sütunlar doldurularak modelin uyumlu çalışması sağlanır.
 
-streamlit run app.py
+---
 
-Uygulamayı kullanın:
-Tarayıcınızda http://localhost:8501 adresine giderek uygulamayı görüntüleyebilirsiniz.
+## Katkı
+- Hataları bildirmek veya geliştirme önerilerinde bulunmak için bir **issue** açabilirsiniz.
+- Katkılarınızı **pull request** ile sunabilirsiniz.
 
-Kullanım
+---
 
-Mekan Öneri
+## Lisans
+Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
 
-Etkinlik türünü, konumu ve fiyat aralığını seçin.
 
-Uygulama, kriterlerinize uygun mekanları listeler.
-
-En yüksek puanlı mekanlar ayrıca vurgulanır.
-
-Mekan Ekleme
-
-Yeni bir mekan eklemek için gerekli bilgileri doldurun (isim, mutfak türü, fiyat aralığı, vb.).
-
-Eklediğiniz mekanlar öneri sistemine dahil edilir.
-
-Puanlama Analizi
-
-Mekanlara puan vererek öneri algoritmasını zenginleştirin.
-
-Tüm mekanların ortalama puanlarını görüntüleyin.
-
-Mekan Seçenekleri (KNN Önerisi)
-
-Kullanıcı ID'nizi girerek size önerilen mekanları görüntüleyin.
-
-Öneriler, "Cuisine Type", "Price Range", ve "Location" bilgilerini içerir.
-
-Veri Seti
-
-Proje, bir CSV dosyası (PlacesAnalysis.csv) kullanır. Bu dosya şu başlıkları içerir:
-
-Place Name: Mekan adı
-
-Cuisine Type: Mutfak türü
-
-Price Range: Fiyat aralığı
-
-Price Range Unit: Sayısal fiyat bilgisi
-
-Event Type: Etkinlik türü
-
-Location: Mekanın bulunduğu yer
-
-User Rating (1-5): Kullanıcı puanı
-
-Örnek Veri:
-
-Place Name
-
-Cuisine Type
-
-Price Range
-
-Price Range Unit
-
-Event Type
-
-Location
-
-User Rating (1-5)
-
-Cafe Aroma
-
-Coffee
-
-$$
-
-2
-
-Casual
-
-Downtown
-
-4.2
-
-Bistro Delight
-
-Italian
-
-$$$
-
-3
-
-Formal
-
-Midtown
-
-4.8
-
-Teknik Detaylar
-
-KNN Algoritması
-
-Kullanıcının yüksek puanladığı mekanlara benzer mekanlar önerilir.
-
-Euclidean Distance metriği kullanılarak benzerlik hesaplanır.
-
-Kategorik özellikler (Cuisine Type, Location) one-hot encoding ile sayısallaştırılır.
-
-Eksik sütunlar doldurularak modelin uyumlu çalışması sağlanır.
-
-Katkı
-
-Hataları bildirmek veya geliştirme önerilerinde bulunmak için bir issue açabilirsiniz.
-
-Katkılarınızı pull request ile sunabilirsiniz.
-
-Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakabilirsiniz.
