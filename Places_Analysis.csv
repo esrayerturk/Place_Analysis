@@ -1,0 +1,151 @@
+Place Name,Cuisine Type,Price Range,Price Range Unit,Event Type,Location,User Rating (1-5)
+Gece Durağı,Turkish Cuisine,$$,2,Midnight Meal,Beytepe,5.0
+Flaf,International Cuisine,$$$,3,"Casual Dining, Romantic",Beytepe,4.3
+Gua Coffee,Coffee,$,1,"Coffee Break, Casual Meetup",Beytepe,4.3
+Mozz,Italian Pizza,$$$,3,"Casual Dining, Romantic",Beytepe,3.9
+Jula,Italian Pizza,$$$,3,"Casual Dining, Romantic",Beytepe,4.0
+Coco & Clavis,Coffee & Bakery,$$,2,Coffee & Dessert,Beytepe,3.8
+Beytepe Kebapçısı,Turkish Cuisine,$$,2,Steak Madness,Beytepe,4.8
+Walker's Beytepe,Coffee,$,1,"Coffee Break, Casual Meetup",Beytepe,4.5
+Locus Coffee,Coffee,$,1,"Coffee Break, Casual Meetup",Beytepe,4.7
+Oneway Coffee,Coffee,$,1,"Coffee Break, Casual Meetup",Beytepe,4.6
+Garaj 55,Burger,$$,2,Burger Night,Beytepe,4.3
+Rafine Beytepe,International Cuisine,$$$$,4,"Casual Dining, Romantic",Beytepe,4.3
+Dayı Kürek,Turkish Cuisine,$$,2,Steak Madness,Beytepe,4.0
+Cennetkuşu,Turkish Cuisine,$$,2,Steak Madness,Çayyolu,4.2
+Franco Burger,Burger,$$,2,Burger Night,Çayyolu,4.2
+Sarnıç Döner,Turkish Cuisine,$$,2,Steak Madness,Çayyolu,3.7
+Farro Artisan,Coffee & Bakery,$$$,3,Coffee & Dessert,Çayyolu,4.5
+Kruvasante,Coffee & Bakery,$$,2,Coffee & Dessert,Ümitköy,4.4
+Trilye,Seafood,$$$$,5,"Fine Dining, Romantic",GOP,4.9
+Kalbur Balık,Seafood,$$$,3,"Casual Dining, Family-Friendly",Oran,4.8
+Niki Restaurant,International Cuisine,$$$$,4,"Casual Dining, Romantic",Çukurambar,4.6
+Büyük Lokanta,Turkish Cuisine,$$,2,"Casual Dining, Family-Friendly",Altındağ,4.7
+Fige Restaurant,Italian Cuisine,$$$,3,"Casual Dining, Romantic",Çankaya,4.5
+The Coffee Grinder,Coffee,$$,2,"Coffee Break, Casual Meetup",Kızılay,4.4
+La Gioia,Italian Cuisine,$$$$,4,"Casual Dining, Romantic",Kavaklıdere,4.7
+Özçelik Aspava,Turkish Cuisine,$,1,Steak Madness,Çankaya,4.3
+Ehlikeyf Döner,Turkish Cuisine,$$,2,Casual Dining,Bahçelievler,4.5
+Brew Lab,Coffee,$,1,Study Spot,Beşevler,4.3
+Kınacızade Konağı,Ottoman Cuisine,$$$,3,Special Occasion,Altındağ,4.8
+Gaga Manjero,International Cuisine,$$,2,"Dining, Lounge, Night Out",Tunali Hilmi,4.4
+Cafemiz,Coffee & Bakery,$$,2,Cozy Hangout,Kavaklıdere,4.6
+Peperoncino,Italian Cuisine,$$$,3,"Fine Dining, Romantic",Çayyolu,4.7
+Tavacı Recep Usta,Turkish Cuisine,$$$,3,"Casual Dining, Family-Friendly",Çukurambar,4.6
+Café des Cafés,French Cuisine,$$,2,"Casual Dining, Romantic",Tunali Hilmi,4.5
+Nusr-Et Steakhouse,Steakhouse,$$$$,4,Special Occasion,Çankaya,4.7
+Kebap 49,Turkish Cuisine,$$,2,Steak Madness,Bahçelievler,4.6
+Kitir,Pub Food,$$,2,"Dining, Lounge, Night Out",Bestekar Street,4.3
+Varka Antakya,Hatay Cuisine,$$,2,"Casual Dining, Family-Friendly",Kavaklıdere,4.5
+Quick China,Asian Cuisine,$$$,3,"Casual Dining, Seafood Night",GOP,4.6
+Tunalı Balıkçısı,Seafood,$$$,3,Casual Dining,Tunali Hilmi,4.5
+No4 Restaurant,International Cuisine,$$$$,4,"Casual Dining, Romantic",Çukurambar,4.7
+Pizza Il Forno,Italian Pizza,$$,2,Casual Dining,Çankaya,4.4
+Velo Gastro Pub,International Cuisine,$$,2,Midnight Meal,Tunali Hilmi,4.4
+Liva Pastanesi,Coffee & Bakery,$$,2,Coffee & Dessert,Gordion AVM,4.5
+Çengelhan Brasserie,Ottoman Cuisine,$$$,3,Cultural Dining,Altındağ,4.8
+Kebapçı Emin Usta,Turkish Cuisine,$$,2,"Casual Dining, Family-Friendly",Bahçelievler,4.5
+Sushico,Asian Cuisine,$$$,3,"Casual Dining, Seafood Night",Panora AVM,4.6
+Vapiano,Italian Cuisine,$$,2,Casual Dining,Kentpark AVM,4.3
+Rumi Meze,Meyhane,$$$,3,"Dining, Lounge, Night Out",Çankaya,4.7
+Kuki House,Coffee & Bakery,$$,2,Coffee & Dessert,Çukurambar,4.4
+Kebapçı Mehmet,Turkish Cuisine,$$,2,Steak Madness,Keçiören,4.5
+Zeynel Pastanesi,Coffee & Bakery,$$,2,Coffee & Dessert,Bahçelievler,4.3
+Zenger Paşa Konağı,Ottoman Cuisine,$$$,3,Cultural Dining,Altındağ,4.7
+Kuki Atölye,Artisan Bakery & Cafe,$$,2,Coffee & Dessert,Çankaya,4.5
+Leman Kültür,International & Fast Food,$$,2,"Dining, Lounge, Night Out",Tunali Hilmi,4.4
+Göksu Lokantası,Turkish Cuisine,$$$$,4,"Casual Dining, Family-Friendly",Kavaklıdere,4.6
+Hamamönü Taşhan,Turkish Cuisine,$$,2,Cultural Dining,Altındağ,4.6
+Pancake House,Coffee & Bakery,$$,2,Cozy Hangout,Çankaya,4.4
+Grill Polonez,Steakhouse,$$$,3,Special Occasion,Armada AVM,4.6
+Papazın Bağı,Italian Cuisine,$$$,3,"Casual Dining, Romantic",İncek,4.5
+Boğaziçi Lokantası,Turkish Cuisine,$$$$,4,"Casual Dining, Family-Friendly",Ulus,4.6
+Fırıncı Orhan,Artisan Bakery & Cafe,$,1,Coffee & Dessert,Çankaya,4.3
+Kalender Zebra,Turkish Cuisine,$$$,3,"Fine Dining, Romantic",Oran,4.5
+Moc Coffee,Coffee,$$,2,Study Spot,Çankaya,4.4
+Kebapçı İskender,Turkish Cuisine,$$,2,Steak Madness,Bahçelievler,4.6
+Bolu Mangal Evi,Steakhouse,$$,2,Steak Madness,Çayyolu,4.4
+Koç Ateş,Seafood,$$$,3,"Dining, Lounge, Night Out",Çukurambar,4.6
+Mazi Meyhane,Meyhane,$$$,3,"Dining, Lounge, Night Out",Tunali Hilmi,4.4
+Afitap Meyhane,Meyhane,$$$,3,"Dining, Lounge, Night Out",Çankaya,4.5
+Hayyami Şarap Evi,Wine & Tapas,$$$,3,"Fine Dining, Romantic",Kavaklıdere,4.7
+Beyti,Turkish Cuisine,$$$$,4,Special Occasion,Florya,4.9
+Çırağan Sarayı,Ottoman Cuisine,$$$$$,5,Cultural Dining,Beşevler,5.0
+Müze Kahvesi,Coffee,$$,2,"Coffee Break, Casual Meetup",Çankaya,4.6
+Kocatepe Kahve Evi,Coffee,$$,2,"Coffee Break, Casual Meetup",Kocatepe,4.7
+Fevzi Hoca,Seafood,$$$,3,"Casual Dining, Seafood Night",Çayyolu,4.5
+Müze Restoranı,Ottoman Cuisine,$$$,3,"Fine Dining, Romantic",Ulus,4.6
+Zeytin Bostanı,Italian Cuisine,$$$,3,"Casual Dining, Romantic",Kavaklıdere,4.7
+Fish Market,Seafood,$$$,3,"Casual Dining, Seafood Night",Bilkent,4.7
+Asmalı Konak,Turkish Cuisine,$$$,3,Cultural Dining,Kocatepe,4.7
+Lou,International Cuisine,$$$,3,Casual Dining,Çankaya,4.5
+Luigi,Italian Cuisine,$$$,3,"Fine Dining, Romantic",Atakule,4.6
+Hunger,International & Fast Food,$$,2,"Coffee Break, Casual Meetup",Çankaya,4.4
+Mezzaluna,Italian Cuisine,$$$,3,"Casual Dining, Romantic",Çankaya,4.7
+Timboo,International & Fast Food,$$$,3,Casual Dining,Çankaya,4.5
+Big Chefs,International & Fast Food,$$$,3,Casual Dining,Çankaya,4.7
+Naya,Italian Cuisine,$$$,3,Casual Dining,Beşevler,4.6
+Divan,International Cuisine,$$$$,4,"Fine Dining, Special Occasion",Kavaklıdere,4.8
+Zoie Brasserie & Lounge,International Cuisine,$$$,3,Casual Dining,Çankaya,4.6
+Pizzeria Alla Torre,Italian Pizza,$$$,3,Casual Dining,Atakule,4.5
+The Lounge,International & Lounge,$$$,3,"Dining, Lounge, Night Out",Atakule,4.6
+Ranchero Atakule,Mexican Cuisine,$$$,3,"Casual Dining, Family-Friendly",Atakule,4.7
+Chinabloom Wok Kitchen,Asian Cuisine,$$$,3,"Casual Dining, Seafood Night",Atakule,4.6
+Vakko L'Atelier Atakule,French Cuisine,$$$$,4,"Fine Dining, Special Occasion",Atakule,4.8
+Grano Atakule,Italian Cuisine,$$$$,4,"Fine Dining, Romantic",Atakule,4.7
+Nakia Restaurant,Italian Cuisine,$$$,3,"Casual Dining, Family-Friendly",Kocatepe,4.5
+Fige Restaurant,Turkish Cuisine,$$$,3,Cultural Dining,Beşevler,4.6
+Double Zero,Italian Cuisine,$$$,3,"Casual Dining, Family-Friendly",Panora AVM,4.6
+Happy Moons,International & Fast Food,$$,2,Casual Dining,Panora AVM,4.5
+Newcastle,International & Fast Food,$$$,3,"Fine Dining, Special Occasion",Panora AVM,4.7
+FUNDA CAFE & PATİSSERİE,Artisan Bakery & Cafe,$$,2,Coffee & Dessert,Kuzu Effect,4.5
+Lemonde,International Cuisine,$$$,3,"Casual Dining, Romantic",Kuzu Effect,4.3
+Peony,Coffee & Bakery,$$$,3,Coffee & Dessert,Kuzu Effect,4.4
+Etçi Umut,Turkish Cuisine,$$$,3,Steak Madness,Oran,4.6
+Clinic Coffee,Coffee & Bakery,$$,2,"Coffee Break, Casual Meetup",Panora AVM,4.5
+Louise Cafe Brasserie & Loft,International Cuisine,$$$$,4,"Fine Dining, Romantic",Filistin Street,4.5
+L’avare Street,International Cuisine,$$,2,"Casual Dining, Romantic",Kavaklıdere,4.4
+Nükteli,Coffee,$$,2,"Coffee Break, Casual Meetup",Kocatepe,4.3
+Lucera Restaurant,Italian Cuisine,$$$$,4,"Fine Dining, Romantic",Çankaya,4.6
+No4 Restaurant Bar Lounge,Pub Food,$$$,3,"Dining, Lounge, Night Out",Tunali Hilmi,4.5
+Yelken Balık,Seafood,$$$$,4,Special Occasion,Çankaya,4.7
+JW Steakhouse,Steakhouse,$$$$,4,"Fine Dining, Romantic",Çankaya,4.6
+Kirit Cafe,Coffee,$$,2,"Coffee Break, Casual Meetup",Çayyolu,4.3
+Muslum Kebap,Turkish Cuisine,$$,2,"Casual Dining, Family-Friendly",Keçiören,4.5
+Göksu Restoran,International Cuisine,$$$,3,"Casual Dining, Seafood Night",Çankaya,4.4
+Deli Yengeç,Seafood,$$$$,4,Special Occasion,Çankaya,4.6
+Develi1912 Ankara,Turkish Cuisine,$$$$,4,"Fine Dining, Special Occasion",Çankaya,4.7
+Tarabya Balıkçısı,Seafood,$$$$,4,Special Occasion,Çankaya,4.8
+Duveroğlu,Turkish Cuisine,$$$,3,"Casual Dining, Family-Friendly",Kocatepe,4.5
+Amelie's Garden Succulent & Coffee,Coffee,$$,2,"Coffee Break, Casual Meetup",Tunali Hilmi,4.4
+Kafes Fırın,Coffee & Bakery,$$,2,"Coffee Break, Casual Meetup",Kocatepe,4.3
+Gunaydin Kebap Restaurant,Turkish Cuisine,$$$,3,"Casual Dining, Family-Friendly",Çankaya,4.6
+Varuna Gezgin,International Cuisine,$$$,3,"Dining, Lounge, Night Out",Çayyolu,4.4
+Midpoint,International & Fast Food,$$$,3,Casual Dining,Çayyolu,4.3
+Ekşi Maya,Artisan Bakery & Cafe,$$,2,Coffee & Dessert,Tunali Hilmi,4.5
+The House Cafe,International & Fast Food,$$$,3,"Casual Dining, Romantic",Çayyolu,4.6
+Köroğlu Mantı Evi,Turkish Cuisine,$$$,3,"Casual Dining, Family-Friendly",Çayyolu,4.5
+Mezzaluna,Italian Cuisine,$$$$,4,"Fine Dining, Special Occasion",Bilkent,4.7
+Big Plate,International & Fast Food,$$$$,4,"Fine Dining, Romantic",Çayyolu,4.6
+Cafe des Cafes,International & Fast Food,$$$,3,Casual Dining,Çayyolu,4.5
+Gavroche,French Cuisine,$$$$,4,"Fine Dining, Special Occasion",Çayyolu,4.8
+Villa Restaurant,Italian Cuisine,$$$$,4,"Fine Dining, Romantic",Kavaklıdere,4.7
+Alma Table,International Cuisine,$$$$,4,"Fine Dining, Romantic",Çayyolu,4.8
+Fabregas Cafe,Coffee & Bakery,$$,2,"Coffee Break, Casual Meetup",Çukurambar,4.4
+Safie Meyhane Roof,Meyhane,$$$,3,"Dining, Lounge, Night Out",Kızılay,4.8
+Simple Chocolate,Coffee & Bakery,$$,2,Coffee & Dessert,Ümitköy,3.1
+Coco Chef,Coffee & Bakery,$$,2,"Coffee Break, Casual Meetup",Ümitköy,4.4
+Sofa Burger,Burger,$$,2,Burger Night,Ümitköy,4.3
+Meşhur Yıldızeller Köftecisi,Turkish Cuisine,$$$,3,Casual Dining,Ümitköy,4.0
+Nükteli,Turkish Cuisine,$$$$,4,Casual Dining,Ümitköy,4.6
+Liva Ümitköy,Coffee & Bakery,$$,2,Coffee & Dessert,Ümitköy,3.7
+Mersinli Ciğerci Apo,Turkish Cuisine,$$$,3,"Casual Dining, Family-Friendly",Ümitköy,4.5
+Pizza Locale,Italian Pizza,$$,2,"Casual Dining, Family-Friendly",Ümitköy,4.5
+No95,Burger,$$,2,Burger Night,Ümitköy,4.8
+Glow Chocolate,Coffee & Bakery,$$,2,Coffee & Dessert,Ümitköy,4.2
+Uluçay Tantuni,Hatay Cuisine,$$,2,Casual Dining,Ümitköy,4.2
+Çiroz Balık Servet,Meyhane,$$$,3,"Dining, Lounge, Night Out",Ümitköy,4.1
+Kırk Fırın,Coffee & Bakery,$$,2,"Coffee Break, Casual Meetup",Çayyolu,4.3
+Strada,Italian Cuisine,$$$,3,"Casual Dining, Family-Friendly",İncek,4.4
+Fireroom Gastro Pub,Pub Food,$$$,3,Casual Dining,İncek,4.9
+100 Burger,Burger,$$$,3,Burger Night,İncek,4.5
